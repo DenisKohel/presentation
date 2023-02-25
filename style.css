@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "cubano";
+    src: url(Cubano.ttf);
+}
+
+body {
+    color: rgb(240,240,240);
+    background-color: rgb(21, 22, 27);
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.slide{
+    /* max-width: 1000px; */
+    position: relative;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+background-color: rgb(29, 30, 34);
+  width: 70vw;
+  height:70vh;
+  padding: 5%;
+  /* border: 2px solid rgb(145, 143, 143); */
+  box-shadow: 8px 8px 8px rgb(16,17,20);
+
+  
+}
+
+#title{
+    position: relative;
+  font-size: 400%;
+  margin-left:12.5%;
+  margin-top: 6.25%;
+  line-height: 170%;
+  
+  text-align: center;
+  font-family: cubano, sans-serif;
+
+  
+  display: grid; 
+  grid-template-columns: 0.5fr 1fr 1fr; 
+  grid-template-rows: 0.5fr 0.5fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "how how ."
+    "stupidly website ."
+    ". . .";
+}
+#how { grid-area: how; }
+#stupidly { grid-area: stupidly; }
+#website { grid-area: website; }
+
+#how{ font-size:130%;}
+
+#stupidly{
+    margin-top: 5%;
+    font-size:60%;
+    line-height: 120%;
+}
+#website{
+    margin-left: 3%;
+    font-size:220%;
+    color:rgb(237, 82, 83)
+}
+#by{
+    font-family: cubano, sans-serif;
+    font-size:250%;
+    text-align: center;
+}
