@@ -13,7 +13,7 @@ body {
 }
 
 .slide{
-    /* max-width: 1000px; */
+    /* max-width: 100vh; */
     position: relative;
     margin: auto;
     margin-bottom: 2%;
@@ -27,6 +27,8 @@ background-color: rgb(29, 30, 34);
 font-size:1vw;
   
 }
+
+
 
 #title{
     position: relative;
@@ -68,4 +70,28 @@ font-size:1vw;
     font-family: cubano, sans-serif;
     font-size:250%;
     text-align: center;
+}
+
+.content{
+    display:flex;
+    justify-content: space-between;
+}
+.content h1{
+    margin-left: 50%;
+    margin-top: 5%;
+    font-family: cubano, sans-serif;
+    font-weight:lighter;
+    font-size: 300%;
+    
+    }
+.content li{
+    color: rgb(240,240,240);
+    font-family: arial, sans-serif;
+    font-size: 150%;
+}
+
+.image{
+    width:25vw;
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px rgb(16,17,20);
 }
