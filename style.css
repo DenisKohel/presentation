@@ -31,6 +31,7 @@ font-size:1vw;
 
 
 #title{
+    
     position: relative;
   font-size: 400%;
   margin-left:12.5%;
@@ -151,3 +152,80 @@ font-size:1vw;
     background-color: rgb(240,240,240);
     cursor: pointer;
 }
+
+@keyframes animation {
+    from {
+        color: #6666ff;
+      }
+      10% {
+        color: #0099ff;
+      }
+      50% {
+        color: #00ff00;
+      }
+      75% {
+        color: #ff3399;
+      }
+      100% {
+        color: #6666ff;
+      }
+  }
+  
+  @keyframes tilting{
+    from {
+        rotate: -5deg;
+        scale: 0.9;
+    }
+    
+    50% {
+        rotate: 5deg;
+        scale: 1;
+    }
+    100% {
+        rotate: -5deg;
+        scale: 0.9;
+    }
+  }
+
+  #animation {
+    margin-left: 3%;
+    display: inline-block;
+    font-family: cubano,sans-serif;
+    width: 100px;
+    height: 100px;
+    animation-name: tilting,animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out
+  }
+
+  #space{
+    margin-left: 10%;
+    margin-right: 10%;
+font-weight: bold;}
+
+  #pretty{
+    color: rgb(237, 82, 83);
+    font-family: cubano, sans-serif;
+    font-size: 110%;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);}
+  
+  #CSS{
+    color: rgb(237, 82, 83);
+  }
+
+  #HTML{
+    color: rgb(82, 159, 237);
+  }
+
+  #button{
+    color: rgb(29, 30, 34);
+    font-size:80%;
+    padding: 1%;
+    width: 20%;
+    background-color: rgb(108, 182, 255);
+    border: 4px;
+    border-color:rgb(145, 143, 143);
+    border-radius: 12px;
+    
+  }
