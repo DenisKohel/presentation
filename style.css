@@ -84,14 +84,70 @@ font-size:1vw;
     font-size: 300%;
     
     }
-.content li{
+.content li,#rater{
     color: rgb(240,240,240);
     font-family: arial, sans-serif;
-    font-size: 150%;
+    font-size: 170%;
+    line-height: 200%;
 }
+
+#rater{
+    border: 2px solid rgb(145, 143, 143);
+    padding: 2%;
+    text-align: center;
+    line-height: 250%;
+    font-family: cubano;
+    width: 80%;
+    margin: auto;
+}
+
+#score{
+    font-size: 300%;
+}
+
+
+
 
 .image{
     width:25vw;
     margin-top: 5%;
     box-shadow: 5px 5px 5px rgb(16,17,20);
+}
+
+#JS{
+    color: rgb(238, 238, 106);
+    margin-left:25%;
+}
+
+.text{
+    width:50%;
+}
+
+#studentName{ 
+    font-family: arial, sans-serif; 
+}
+
+#student{
+    color: rgb(240,240,240);
+    font-family: arial, sans-serif;
+    background-color: transparent;
+    font-size: 64%;
+    font-weight: bold;
+    border: 0px;
+    border-bottom: 2px solid rgb(145, 143, 143);
+    margin-top: 10%;
+}
+
+#rate{
+    color: rgb(29, 30, 34);
+    font-size:120%;
+    background-color: rgb(238, 238, 106);
+    border: 0px;
+    width: 25%;
+    font-family: cubano, sans-serif;
+    border-radius: 10px;
+}
+#rate:hover{
+    background-color: rgb(240,240,240);
+    cursor: pointer;
 }

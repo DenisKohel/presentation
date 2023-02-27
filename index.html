@@ -3,6 +3,7 @@
 <head>
     <title>Presentation</title>
     <link rel="stylesheet" href="style.css">
+    <script src = "index.js"></script>
 </head>
 <body>
     <div class="slide">
@@ -37,13 +38,18 @@
     </div>
     <div class = "slide">
         <div class ="content">  
-            <div>
-                <h1>JavaScript</h1>
+            <div class = "text">
+                <h1 id="JS">JavaScript</h1>
                 <ul>
-                    <li>Used to layout elements</li>
+                    <li>A programming language</li>
                 </ul>
+                <div id="rater">Rate the presentation
+                    <div id="score">?? / 10</div>
+                    <div id="studentName">Student's name: <input type="text" id="student" value="Denis"></input></div>
+                    <button id = "rate" onclick =rateStudentsPresentation()>RATE</button>
+                </div>
             </div>
-            <img class = "image" src="fotka.png" alt="">
+            <img class = "image" src="javascript.png" alt="">
         </div>
     </div>
 </body>
